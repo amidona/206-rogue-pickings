@@ -142,8 +142,7 @@ header nav ul li a{
 
 /*HIDING THIS 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	
 }*/
 
 .section-two h3,
@@ -182,6 +181,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 90%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -194,6 +194,25 @@ footer span {
 /******MEDIA INQURIES START HERE******/
 @media all and (min-width:768px) {
 	/*Tablet Styles*/
+	.bottom-section {
+		flex-flow: row nowrap;
+		flex-basis: auto;
+		align-items: flex-start;
+	}
+
+	.section-one {
+		padding-right: 30px;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 30px;
+	}
+
+	.section-three {
+		padding-left: 30px;
+	}
 
 }
 
